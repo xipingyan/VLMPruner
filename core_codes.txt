@@ -1,0 +1,3 @@
+./VLMPruner/llava/model/language_model/modeling_llama_self.py  --- class VLMPruner(LlamaModel)
+
+./VLMPruner/Qwen2-VL/Qwen2VL_VLMPruner/modeling_qwen2_vl_self.py --- class VLMPruner(Qwen2VLModel)
