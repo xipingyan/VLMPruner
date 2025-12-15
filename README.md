@@ -1,7 +1,7 @@
 # VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm
 
 ## Note
-The usage is coming soon!
+The usage is coming soon in December 2025!
 
 ## 🔥 News
 - `2025/12/15`: The official implementation of VLMPruner is available!
