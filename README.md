@@ -30,11 +30,13 @@ The usage is coming soon in December 2025!
 - `2025/12/02`: VLM-Pruner has been submitted to Arxiv, see [here](https://arxiv.org/abs/2512.02700). 
 
 ## Core Codes
-'''shell
-./VLMPruner/llava/model/language_model/modeling_llama_self.py  --- class VLMPruner(LlamaModel)
+```text
+./VLMPruner/llava/model/language_model/modeling_llama_self.py
+    └── class VLMPruner(LlamaModel)
 
-./VLMPruner/Qwen2-VL/Qwen2VL_VLMPruner/modeling_qwen2_vl_self.py --- class VLMPruner(Qwen2VLModel)
-'''
+./VLMPruner/Qwen2-VL/Qwen2VL_VLMPruner/modeling_qwen2_vl_self.py
+    └── class VLMPruner(Qwen2VLModel)
+
 
 ## 👀 Overview
 ![intro1](./fig/fig_intro.png)
