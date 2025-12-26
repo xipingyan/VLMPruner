@@ -29,7 +29,7 @@ The usage is coming soon in December 2025!
 - `2025/12/15`: The official implementation of VLM-Pruner is available!
 - `2025/12/02`: VLM-Pruner has been submitted to Arxiv, see [here](https://arxiv.org/abs/2512.02700). 
 
-## Core Codes
+## 💻Core Codes
 ```text
 ./VLMPruner/llava/model/language_model/modeling_llama_self.py
     └── class VLMPruner(LlamaModel)
