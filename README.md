@@ -16,7 +16,7 @@
 
 <sup>†</sup> Equal contribution.  
 <sup>✉</sup> Corresponding author: xinghao.chen@huawei.com
-
+<sup>📕</sup> Arxiv version: [here](https://arxiv.org/abs/2512.02700).
 </div>
 
 
