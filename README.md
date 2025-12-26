@@ -9,9 +9,10 @@ The usage is coming soon in December 2025!
 
 ## 👀 Overview
 ![intro1](./fig/fig_intro.png)
-Figure 1. Comparisons between baselines and VLM-Pruner. Left: Visual question answering examples with correct (green) and incorrect (red) responses; numbers (from 1 to 64) denote token selection order. Right: VLM-Pruner consistenly outperformes baselines across five VLMs.
+**Figure 1. Comparisons between baselines and VLM-Pruner. Left**: Visual question answering examples with correct (green) and incorrect (red) responses; numbers (from 1 to 64) denote token selection order. **Right**: Compared with importance-driven FastV and redundancy-reduction DART and DivPrune at pruning rates of 66.7%, 77.8%, and 88.9%, VLM-Pruner consistently outperforms them across five VLMs.
 
 ![model](./fig/model.png)
+**Figure 2. Centrifugal token pruning paradigm of VLM-Pruner. (a) Pipeline**: In the $i$-th decoder layer of the LLM, VLM-Pruner follows a near-to-far selection order, **(b)** starting with pivot tokens, **(c)** gradually expanding outward from neighborhoods, and **(d)** ultimately recovering the outermost information from the discarded tokens via SWA. The similarity computed under BSS criterion makes candidate tokens spatially closer to selected ones more likely to be chosen. Color transition from green to red indicates decreasing selection probability. $C$ and $S$ denote candidate and selected tokens, respectively. After applying BSS, the closer candidate $C_2$ is prioritized over $C_1$.
 
 ## 🌟 Citation
 
