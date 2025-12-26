@@ -1,20 +1,29 @@
-# VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
 
----
+\title{\textbf{VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm}}
 
-**Zhenkai Wu**<sup>1,2</sup><sup>*</sup>, **Xiaowen Ma**<sup>2</sup><sup>*</sup>, **Zhenliang Ni**<sup>2</sup>  
-**Dengming Zhang**<sup>1,2</sup>, **Han Shu**<sup>2</sup>, **Xin Jiang**<sup>2</sup>, **Xinghao Chen**<sup>2</sup><sup>†</sup>
+\author{
+    \textbf{Zhenkai Wu}$^{1,2}$\thanks{Equal contribution.} \quad
+    \textbf{Xiaowen Ma}$^{2}$\footnotemark[1] \quad
+    \textbf{Zhenliang Ni}$^{2}$ \\
+    \textbf{Dengming Zhang}$^{1,2}$ \quad
+    \textbf{Han Shu}$^{2}$ \quad
+    \textbf{Xin Jiang}$^{2}$ \quad
+    \textbf{Xinghao Chen}$^{2}$\thanks{Corresponding author: xinghao.chen@huawei.com} \\
+    $^1$ Zhejiang University \quad
+    $^2$ Huawei Noah's Ark Lab
+}
 
----
+\date{} % Leave date empty
 
-**Affiliations:**
-- <sup>1</sup> Zhejiang University  
-- <sup>2</sup> Huawei Noah's Ark Lab
+\begin{document}
 
----
+\maketitle
 
-<sup>*</sup> Equal contribution.  
-<sup>†</sup> Corresponding author: xinghao.chen@huawei.com
+\end{document}
+
 
 
 ## Note
