@@ -16,7 +16,7 @@ The usage is coming soon in December 2025!
 
 ## 🌟 Citation
 
-If you are interested in our work, please consider giving a 🌟 and citing our work below. We will update **rschange** regularly.
+If you are interested in our work, please consider giving a 🌟 and citing our work below. We will update **VLM-Pruner** regularly.
 ```
 @article{wu2025vlm,
   title={VLM-Pruner: Buffering for Spatial Sparsity in an Efficient VLM Centrifugal Token Pruning Paradigm},
