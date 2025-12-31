@@ -39,24 +39,22 @@ pip install protobuf
 pip install transformers_stream_generator
 ```
 2. Download Multimodal Benchmarks
+   (1) Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md):
 
-(1) Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md):
+   Please download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and extract it to `./playground/data/eval`.
 
-Please download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and extract it to `./playground/data/eval`.
-    
-Please download benchmarks including **GQA**, **ScienceQA**, **TextVQA**, **POPE**, **MME**, and **MMBench**.
+   Please download benchmarks including **GQA**, **ScienceQA**, **TextVQA**, **POPE**, **MME**, and **MMBench**.
 
-(2) Please refer to [OCRBench](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench) to download **OCRBench**:
+   (2) Please refer to [OCRBench](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench) to download **OCRBench**:
 
-Download [OCRBench Images](https://drive.google.com/file/d/1a3VRJx3V3SdOmPr7499Ky0Ug8AwqGUHO/view?usp=drive_link) and [OCRBench json](https://github.com/Yuliang-Liu/MultimodalOCR/blob/main/OCRBench/OCRBench/OCRBench.json). 
+   Download [OCRBench Images](https://drive.google.com/file/d/1a3VRJx3V3SdOmPr7499Ky0Ug8AwqGUHO/view?usp=drive_link) and [OCRBench json](https://github.com/Yuliang-Liu/MultimodalOCR/blob/main/OCRBench/OCRBench/OCRBench.json).
 
-Extract them to `./playground/data/eval/OCRBench/OCRBench_Images` and `./playground/data/eval/OCRBench/OCRBench/OCRBench.json`, respectively.
+   Extract them to `./playground/data/eval/OCRBench/OCRBench_Images` and `./playground/data/eval/OCRBench/OCRBench/OCRBench.json`, respectively.
 
-(3) Please follow the detailed instrunction in [additional benchmarks](https://internvl.readthedocs.io/en/latest/get_started/eval_data_preparation.html#) to download additional benchmarks including **SEED-Image** and **OKVQA**.
+   (3) Please follow the detailed instrunction in [additional benchmarks](https://internvl.readthedocs.io/en/latest/get_started/eval_data_preparation.html#) to download additional benchmarks including **SEED-Image** and **OKVQA**.
 
 3. Download Models' Pretrained Weights:
-
-Download [clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336), [llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b), and [llava-v1.5-13b](https://huggingface.co/liuhaotian/llava-v1.5-13b) and put them to `/cache/huggingface/`.
+   Download [clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336), [llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b), and [llava-v1.5-13b](https://huggingface.co/liuhaotian/llava-v1.5-13b) and put them to `/cache/huggingface/`.
 
 4. Usage
 ```shell
