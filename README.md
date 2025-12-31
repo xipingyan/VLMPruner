@@ -24,7 +24,7 @@
 - `2025/12/15`: The official implementation of VLM-Pruner is available!
 - `2025/12/02`: VLM-Pruner has been submitted to Arxiv, see [here](https://arxiv.org/abs/2512.02700). 
 
-## 🔧 Instruction
+## 🔧 Instructions
 ### LLaVA-1.5-7b/13b
 1. Environment Setup
 ```shell
