@@ -35,6 +35,7 @@ pip install flash-attn --no-build-isolation --no-cache-dir
 pip install accelerate deepspeed --upgrade
 pip install protobuf
 pip install transformers_stream_generator
+pip install openpyxl
 ```
 2. Download Multimodal Benchmarks
    
