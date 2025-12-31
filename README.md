@@ -44,13 +44,15 @@ pip install transformers_stream_generator
 
 Please download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and extract it to ./playground/data/eval.
     
-Please download benchmarks including GQA, ScienceQA, TextVQA, POPE, MME, MMBench, and SEED-Bench.
+Please download benchmarks including GQA, ScienceQA, TextVQA, POPE, MME, and MMBench.
 
 (2) Please refer to [OCRBench](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench) to download OCRBench:
 
 Download [OCRBench Images](https://drive.google.com/file/d/1a3VRJx3V3SdOmPr7499Ky0Ug8AwqGUHO/view?usp=drive_link) and [OCRBench json](https://github.com/Yuliang-Liu/MultimodalOCR/blob/main/OCRBench/OCRBench/OCRBench.json). 
 
 Extract them to ./playground/data/eval/OCRBench/OCRBench_Images and ./playground/data/eval/OCRBench/OCRBench/OCRBench.json, respectively.
+
+(3) Please follow the detailed instrunction in [additional benchmarks](https://internvl.readthedocs.io/en/latest/get_started/eval_data_preparation.html#) to download additional benchmarks including SEED-Image and OKVQA.
 
 ## 💻Core Codes
 ```text
