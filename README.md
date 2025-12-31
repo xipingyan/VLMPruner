@@ -46,6 +46,7 @@ Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/
     
 (2) Please download benchmarks including GQA, ScienceQA, TextVQA, POPE, MME, MMBench, and SEED-Bench.
 
+Please refer to [OCRBench](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench). Download [OCRBench Images](https://drive.google.com/file/d/1a3VRJx3V3SdOmPr7499Ky0Ug8AwqGUHO/view?usp=drive_link) and [OCRBench json](https://github.com/Yuliang-Liu/MultimodalOCR/blob/main/OCRBench/OCRBench/OCRBench.json). Extract them to ./playground/data/eval/OCRBench/OCRBench_Images and ./playground/data/eval/OCRBench/OCRBench/OCRBench.json respectively.
 
 ## 💻Core Codes
 ```text
