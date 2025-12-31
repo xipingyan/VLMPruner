@@ -39,7 +39,7 @@ pip install protobuf
 pip install transformers_stream_generator
 ```
 2.Download Multimodal Benchmarks
-Please follow the detailed instruction in [LLaVA-Evaluation]{https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md}.
+Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md).
 
 ## 💻Core Codes
 ```text
