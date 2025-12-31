@@ -99,6 +99,7 @@ bash eval_scripts/[Benchmark].sh [Reduction_Ratio] [Similarity_Threshold] [Token
     └── bash eval_scripts/lmms_eval_ocrbench.sh 0.778 0.8 16
     └── bash eval_scripts/lmms_eval_pope.sh 0.667 0.8 16
 ```
+If you want to use multiple GPUs to run in parallel, please modify both export `CUDA_VISIBLE_DEVICES=0` and `--num_processes=1` in the `[benchmark].sh` file. For example, they can be changed to `CUDA_VISIBLE_DEVICES=0,1` and `--num_processes=2`.
 
 ## 💻Core Codes
 ```text
