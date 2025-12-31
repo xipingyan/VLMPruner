@@ -83,7 +83,7 @@ cd ../../lmms-eval && pip install -e .
 
 2. Download Multimodal Benchmarks
 
-   Please download [GQA](https://huggingface.co/datasets/lmms-lab/GQA), [MMBench](https://huggingface.co/datasets/lmms-lab/MMBench), [MME](https://huggingface.co/datasets/lmms-lab/MME), [OCRBench](https://huggingface.co/datasets/echo840/OCRBench), [POPE](https://huggingface.co/datasets/lmms-lab/POPE), [ScienceQA]([https://huggingface.co/datasets/lmms-lab/ScienceQA-IMG](https://huggingface.co/datasets/lmms-lab/ScienceQA)), [SEED-Bench](https://huggingface.co/datasets/lmms-lab/SEED-Bench), [textvqa](https://huggingface.co/datasets/lmms-lab/textvqa), and [OK-VQA](https://huggingface.co/datasets/lmms-lab/OK-VQA).
+   Please download [GQA](https://huggingface.co/datasets/lmms-lab/GQA), [MMBench](https://huggingface.co/datasets/lmms-lab/MMBench), [MME](https://huggingface.co/datasets/lmms-lab/MME), [OCRBench](https://huggingface.co/datasets/echo840/OCRBench), [POPE](https://huggingface.co/datasets/lmms-lab/POPE), [ScienceQA](https://huggingface.co/datasets/lmms-lab/ScienceQA), [SEED-Bench](https://huggingface.co/datasets/lmms-lab/SEED-Bench), [textvqa](https://huggingface.co/datasets/lmms-lab/textvqa), and [OK-VQA](https://huggingface.co/datasets/lmms-lab/OK-VQA).
 
    Please put them into `Qwen2-VL/lmms-lab/`.
 
