@@ -39,6 +39,7 @@ pip install protobuf
 pip install transformers_stream_generator
 ```
 2. Download Multimodal Benchmarks
+   
    (1) Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md):
 
    Please download [eval.zip](https://drive.google.com/file/d/1atZSBBrAX54yYpxtVVW33zFvcnaHeFPy/view?usp=sharing) and extract it to `./playground/data/eval`.
@@ -54,6 +55,7 @@ pip install transformers_stream_generator
    (3) Please follow the detailed instrunction in [additional benchmarks](https://internvl.readthedocs.io/en/latest/get_started/eval_data_preparation.html#) to download additional benchmarks including **SEED-Image** and **OKVQA**.
 
 3. Download Models' Pretrained Weights:
+   
    Download [clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336), [llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b), and [llava-v1.5-13b](https://huggingface.co/liuhaotian/llava-v1.5-13b) and put them to `/cache/huggingface/`.
 
 4. Usage
