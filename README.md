@@ -66,6 +66,40 @@ bash scripts/v1_5/eval/[Benchmark].sh [Reduction_Ratio] [Similarity_Threshold] [
     └── CUDA_VISIBLE_DEVICES=0,1 bash scripts/v1_5/eval/seed.sh 0.667 0.8 16
 ```
 
+### Qwen2-VL-7B
+1. Environment Setup
+```shell
+conda create -n VLMPruner_Qwen2VL python=3.10 -y
+conda activate VLMPruner_Qwen2VL
+cd Qwen2-VL/transformers && pip install -e .
+conda install av -c conda-forge
+conda install -c conda-forge pyarrow
+pip install accelerate qwen-vl-utils[decord]
+pip install flash-attn --no-build-isolation
+conda install -c conda-forge wandb
+pip install tiktoken --only-binary :all:
+cd ../../lmms-eval && pip install -e .
+```
+
+2. Download Multimodal Benchmarks
+
+   Please download [GQA](https://huggingface.co/datasets/lmms-lab/GQA), [MMBench](https://huggingface.co/datasets/lmms-lab/MMBench), [MME](https://huggingface.co/datasets/lmms-lab/MME), [OCRBench](https://huggingface.co/datasets/echo840/OCRBench), [POPE](https://huggingface.co/datasets/lmms-lab/POPE), [ScienceQA]([https://huggingface.co/datasets/lmms-lab/ScienceQA-IMG](https://huggingface.co/datasets/lmms-lab/ScienceQA)), [SEED-Bench](https://huggingface.co/datasets/lmms-lab/SEED-Bench), [textvqa](https://huggingface.co/datasets/lmms-lab/textvqa), and [OK-VQA](https://huggingface.co/datasets/lmms-lab/OK-VQA).
+
+   Please put them into `Qwen2-VL/lmms-lab/`.
+
+3. Download Models' Pretrained Weights:
+   
+   Download [Qwen2-VL-7B](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct) and put them to `/cache/huggingface/`.
+
+4. Usage
+```shell
+cd Qwen2-VL
+bash eval_scripts/[Benchmark].sh [Reduction_Ratio] [Similarity_Threshold] [Token_Batch]
+    └── bash eval_scripts/lmms_eval_mme.sh 0.889 0.8 16
+    └── bash eval_scripts/lmms_eval_ocrbench.sh 0.778 0.8 16
+    └── bash eval_scripts/lmms_eval_pope.sh 0.667 0.8 16
+```
+
 ## 💻Core Codes
 ```text
 ./VLMPruner/llava/model/language_model/modeling_llama_self.py
