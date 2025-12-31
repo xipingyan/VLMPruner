@@ -28,7 +28,7 @@ The usage is coming soon in December 2025!
 
 ## 🔧 Instruction
 ### LLaVA-1.5-7b/13b
-1.Environment Setup
+1. Environment Setup
 ```shell
 conda create -n VLMPruner python=3.10 -y
 conda activate VLMPruner
@@ -38,7 +38,7 @@ pip install accelerate deepspeed --upgrade
 pip install protobuf
 pip install transformers_stream_generator
 ```
-2.Download Multimodal Benchmarks
+2. Download Multimodal Benchmarks
 
 (1) Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md):
 
@@ -54,9 +54,17 @@ Extract them to `./playground/data/eval/OCRBench/OCRBench_Images` and `./playgro
 
 (3) Please follow the detailed instrunction in [additional benchmarks](https://internvl.readthedocs.io/en/latest/get_started/eval_data_preparation.html#) to download additional benchmarks including **SEED-Image** and **OKVQA**.
 
-3.Download Models' Pretrained Weights:
+3. Download Models' Pretrained Weights:
 
 Download [clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336), [llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b), and [llava-v1.5-13b](https://huggingface.co/liuhaotian/llava-v1.5-13b) and put them to `/cache/huggingface/`.
+
+4. Usage
+```shell
+bash scripts/v1_5/eval/[Benchmark].sh [Reduction_Ratio] [Similarity_Threshold] [Token_Batch]
+    └── CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mme.sh 0.889 0.8 16
+    └── CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/pope.sh 0.889 0.8 16
+    └── CUDA_VISIBLE_DEVICES=0,1 bash scripts/v1_5/eval/okvqa.sh 0.889 0.8 16
+```
 
 ## 💻Core Codes
 ```text
