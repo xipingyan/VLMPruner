@@ -64,6 +64,7 @@ bash scripts/v1_5/eval/[Benchmark].sh [Reduction_Ratio] [Similarity_Threshold] [
     └── CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mme.sh 0.889 0.8 16
     └── CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/pope.sh 0.889 0.8 16
     └── CUDA_VISIBLE_DEVICES=0,1 bash scripts/v1_5/eval/okvqa.sh 0.889 0.8 16
+    └── CUDA_VISIBLE_DEVICES=0,1 bash scripts/v1_5/eval/seed.sh 0.889 0.8 16
 ```
 
 ## 💻Core Codes
