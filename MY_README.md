@@ -15,5 +15,7 @@ models/
 
 ```
 source python-env/bin/activate
+mkdir -p ./playground/data/eval/OCRBench/results    # prepare result path.
+
 bash ./scripts/v1_5/eval/ocrbench.sh 0.889 0.8 16
 ```
