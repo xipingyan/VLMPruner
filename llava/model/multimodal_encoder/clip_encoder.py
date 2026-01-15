@@ -12,6 +12,7 @@ class CLIPVisionTower(nn.Module):
 
         # self.vision_tower_name = vision_tower
         self.vision_tower_name = '/cache/huggingface/clip-vit-large-patch14-336'
+        self.vision_tower_name = '/mnt/data_nvme1n1p1/xiping_workpath/mygithub/VLMPruner/models/clip-vit-large-patch14-336'
         
         self.select_layer = args.mm_vision_select_layer
         self.select_feature = getattr(args, 'mm_vision_select_feature', 'patch')

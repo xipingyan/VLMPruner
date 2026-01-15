@@ -6,12 +6,14 @@ reduction_ratio=$1
 threshold=$2
 token_batch=$3
 
-export HF_DATASETS_CACHE="/cache/huggingface/"
-export HF_HOME="/cache/huggingface/"
-export HUGGINGFACE_HUB_CACHE="/cache/huggingface/"
-export TRANSFORMERS_CACHE="/cache/huggingface/"
+MY_MODEL_PATH="`pwd`/models/"
 
-CKPT=/cache/huggingface/llava-v1.5-7b
+export HF_DATASETS_CACHE=$MY_MODEL_PATH
+export HF_HOME=$MY_MODEL_PATH
+export HUGGINGFACE_HUB_CACHE=$MY_MODEL_PATH
+export TRANSFORMERS_CACHE=$MY_MODEL_PATH
+
+CKPT=$MY_MODEL_PATH/llava-v1.5-7b
 MODEL=llava-v1.5-7b
 
 GPU_Nums=$(echo $CUDA_VISIBLE_DEVICES | tr -cd '0-9' | wc -m)
